@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.city.controller.CityControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.49 s <<< FAILURE! - in com.city.controller.CityControllerTest
+testAddCityController  Time elapsed: 2.426 s  <<< ERROR!
+java.lang.ClassCastException: class org.springframework.test.web.servlet.MockMvc$1 cannot be cast to class org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder (org.springframework.test.web.servlet.MockMvc$1 and org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder are in unnamed module of loader 'app')
+	at com.city.controller.CityControllerTest.testAddCityController(CityControllerTest.java:55)
+
+testGetAllCities  Time elapsed: 0.035 s  <<< ERROR!
+java.lang.ClassCastException: class java.util.LinkedList cannot be cast to class org.mockito.stubbing.OngoingStubbing (java.util.LinkedList is in module java.base of loader 'bootstrap'; org.mockito.stubbing.OngoingStubbing is in unnamed module of loader 'app')
+	at com.city.controller.CityControllerTest.testGetAllCities(CityControllerTest.java:65)
+

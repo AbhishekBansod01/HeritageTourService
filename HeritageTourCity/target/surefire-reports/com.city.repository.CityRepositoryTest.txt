@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.city.repository.CityRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.863 s <<< FAILURE! - in com.city.repository.CityRepositoryTest
+getAllmustReturnAllcities  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.city.aspect.LoggingAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.city.aspect.LoggingAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5]
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/ProceedingJoinPoint
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.ProceedingJoinPoint
+
+givenCityShouldReturnCityObject  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.city.aspect.LoggingAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.city.aspect.LoggingAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5]
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/ProceedingJoinPoint
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.ProceedingJoinPoint
+
