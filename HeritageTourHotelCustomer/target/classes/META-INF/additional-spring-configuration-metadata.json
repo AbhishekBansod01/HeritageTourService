@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "data.exception.dataExists",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.dataExists'"
+  },
+  {
+    "name": "data.exception.dataNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.dataNotFound'"
+  },
+  {
+    "name": "data.exception.msg1",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.msg1'"
+  },
+  {
+    "name": "data.exception.msg",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.msg'"
+  },
+  {
+    "name": "msg.sec",
+    "type": "java.lang.String",
+    "description": "A description for 'msg.sec'"
+  }
+]}
