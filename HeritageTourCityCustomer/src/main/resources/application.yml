@@ -1,0 +1,39 @@
+
+server:
+  port: 8084
+spring:
+  application:
+      name: HeritageTourCityCustomer
+  data:
+   mongodb:
+     uri: mongodb+srv://abhishekbansod01:Mongodatabase@cluster0.pzw34.mongodb.net/HeritageCitydb?retryWrites=true&w=majority
+  main:
+    allow-circular-references: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher       
+data:
+  exception:
+     msg: Record Already Exists..!!
+     msg1: Record Id Not Found..!!
+     
+msg: 
+  sec: secrectkey123
+ 
+eureka:
+   client:
+      service-url:
+       defaultZone: http://localhost:8761/eureka/
+
+ 
+
+#logging.level.root=INFO
+#logging.level.com.cg=TRACE
+
+
+
+
+
+
+ 
+ 
